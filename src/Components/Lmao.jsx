@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+const GEMINI_API_KEY = import.meta.env.GEMINI_API_KEY;
 
 const Lmao = () => {
   const [topic, setTopic] = useState('');
