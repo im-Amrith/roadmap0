@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { Send, Bot, Copy, Check, Volume2, VolumeX, Mic, MicOff, Download } from 'lucide-react';
-const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
+const genAI = new GoogleGenerativeAI(import.meta.env.GEMINI_API_KEY);
 
 export function Chatbot() {
   const [messages, setMessages] = useState([]);
